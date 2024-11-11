@@ -118,6 +118,7 @@ main{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     padding: 80px 95px;
+    margin-bottom: 70px;
 }
 .webdevelopment-content{
     width: 850px;
@@ -216,3 +217,41 @@ main{
 .webdevelopment-box3 .box-image img{
     width: 100%;
 }
+/* inspiration section */
+.inspiration{
+    margin-bottom: 70px;
+}
+.inspiration-content{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.inspiration-content h2{
+    color: #0D1321;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.inspiration-content p{
+    color: #0D1321;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+.inspiration-youtube{
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+}
+.inspiration-youtube iframe{
+    width: 94.5%;
+    padding: 32px;
+    border-radius: 16px;
+    background: #d3d3d300 no-repeat;
+    height: 548px;
+}
+
