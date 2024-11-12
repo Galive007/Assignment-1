@@ -125,7 +125,7 @@ main{
     text-align: center;
     margin: 0 auto;
 }
-.webdevelopment-content h2{
+.common-section-tittle{
     color: #0D1321;
     text-align: center;
     font-size: 32px;
@@ -134,7 +134,7 @@ main{
     line-height: normal;
     margin-bottom: 24px;
 }
-.webdevelopment-content p{
+.common-section-description{
     color: #0D1321;
     text-align: center;
     font-size: 16px;
@@ -226,23 +226,8 @@ main{
     width: 75%;
     margin: 0 auto;
 }
-.inspiration-content h2{
-    color: #0D1321;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-bottom: 24px;
-}
-.inspiration-content p{
-    color: #0D1321;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
-    opacity: 0.7;
-    margin-bottom: 40px;
-}
+
+
 .inspiration-youtube{
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.20);
@@ -263,23 +248,7 @@ main{
     width: 75%;
     margin: 0 auto;
 }
-.target-content h2{
-    color: #0D1321;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-bottom: 24px;
-}
-.target-content p{
-    color: #0D1321;
-    opacity: 0.7;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
-    margin-bottom: 40px;
-}
+
 .target-box{
     display: flex;
     gap: 15px;
@@ -335,4 +304,13 @@ main{
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+/* next target section */
+.nextTarget{
+    margin-bottom: 70px;
+}
+.nextTarget-content{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
 }
